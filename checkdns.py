@@ -14,18 +14,17 @@ def checkdns():
         try:
             ip = socket.gethostbyname('google.com')
             print ("O IP do host verificado é: " + ip)
-            if ip == "216.58.222.46":
+            if ip == "216.58.22.46":
                 retorno = False
                 url = 'http://www.google.com.br/'
                 webbrowser.open_new_tab(url)
             else:
                 print "DNS ainda não atualizado. Aguardando 30s."
-                time.sleep( 30 )
         except socket.gaierror:
             print "Nenhum host definido para o domínio. Aguardando 30s."
-            time.sleep( 30 )
         return retorno
 
 condicao = True
 while condicao:
     condicao = checkdns()
+    time.sleep( 30 )
