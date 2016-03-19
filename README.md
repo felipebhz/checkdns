@@ -26,7 +26,10 @@ I needed to check a website's DNS on my local network, not using online tools, b
 
 ## Credits
 
-I will add the name of everyone who helped me
+Who helped me:
+Dyego Vieira: https://github.com/dyegoav
+
+*** > > > I will add the name of everyone who helped me
 
 ## License
 
